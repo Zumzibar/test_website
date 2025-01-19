@@ -1,0 +1,77 @@
+html, body{
+	padding:0;
+	margin:0;
+	background-color: #192231;
+}
+
+.flex-container{
+	display: flex;
+	background-color: #192231;
+	padding:10px;
+	flex-direction: row;
+	justify-content: flex-start;
+	height:100%;
+	width:100%;
+	border-bottom: 2px solid white;
+}
+
+.flex-blank{
+	display: flex;
+	background-color: #192231;
+	padding:10px;
+	flex-direction: row;
+	justify-content:space-evenly;
+	height:100%;
+	width:100%;
+}
+
+.item-blank{
+	display: flex;
+	flex-basis: 600px;
+	background-color: #192231;
+	border-radius: 10px;
+	padding: 25px;
+	height: 100%;
+	font-family: Arial, sans-serif;
+	justify-content: center;
+}
+
+.hover-effect:hover {
+    background-color: #3a4964;
+    color: white; /* Optional: change text color for contrast */
+}
+
+.item{
+	display: flex;
+	background-color: #192231;
+	border-radius: 10px;
+	padding: 25px;
+	height: 100%;
+	font-family: Arial, sans-serif;
+	margin: 1px;
+}
+
+
+.black-link{
+	color: white;
+	text-decoration: none;
+}
+
+.white-text{
+	color: white;
+}
+
+
+/*
+--------------------------------------------------------------------------------------------------------
+Bild Hover
+--------------------------------------------------------------------------------------------------------
+*/
+
+.item-blank img {
+    transition: transform 0.3s;
+}
+
+.item-blank img:hover {
+    transform: scale(1.2);
+}
